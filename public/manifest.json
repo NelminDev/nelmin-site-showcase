@@ -1,0 +1,111 @@
+{
+  "src/entry-client.tsx": {
+    "file": "assets/entry-client.b924645a.js",
+    "src": "src/entry-client.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/index.tsx",
+      "src/routes/[...404].tsx",
+      "src/routes/[..400].tsx",
+      "src/routes/[..401].tsx",
+      "src/routes/[..402].tsx",
+      "src/routes/[..403].tsx",
+      "src/routes/[..425].tsx"
+    ],
+    "css": [
+      "assets/entry-client.7692dda2.css"
+    ]
+  },
+  "src/routes/index.tsx": {
+    "file": "assets/index.0cae4d8d.js",
+    "src": "src/routes/index.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_divider.b01963e9.js"
+    ],
+    "css": [
+      "assets/index.34b589db.css"
+    ]
+  },
+  "_divider.b01963e9.js": {
+    "file": "assets/divider.b01963e9.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "src/routes/[...404].tsx": {
+    "file": "assets/_...404_.b024e91f.js",
+    "src": "src/routes/[...404].tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_HttpStatusCode.f2416318.js",
+      "_divider.b01963e9.js"
+    ]
+  },
+  "_HttpStatusCode.f2416318.js": {
+    "file": "assets/HttpStatusCode.f2416318.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ]
+  },
+  "src/routes/[..400].tsx": {
+    "file": "assets/_..400_.206de7b6.js",
+    "src": "src/routes/[..400].tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_HttpStatusCode.f2416318.js",
+      "_divider.b01963e9.js"
+    ]
+  },
+  "src/routes/[..401].tsx": {
+    "file": "assets/_..401_.31d237d3.js",
+    "src": "src/routes/[..401].tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_HttpStatusCode.f2416318.js",
+      "_divider.b01963e9.js"
+    ]
+  },
+  "src/routes/[..402].tsx": {
+    "file": "assets/_..402_.8ff12ce4.js",
+    "src": "src/routes/[..402].tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_HttpStatusCode.f2416318.js",
+      "_divider.b01963e9.js"
+    ]
+  },
+  "src/routes/[..403].tsx": {
+    "file": "assets/_..403_.01fdeff5.js",
+    "src": "src/routes/[..403].tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_HttpStatusCode.f2416318.js",
+      "_divider.b01963e9.js"
+    ]
+  },
+  "src/routes/[..425].tsx": {
+    "file": "assets/_..425_.30b247e0.js",
+    "src": "src/routes/[..425].tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/entry-client.tsx",
+      "_HttpStatusCode.f2416318.js",
+      "_divider.b01963e9.js"
+    ]
+  },
+  "src/entry-client.css": {
+    "file": "assets/entry-client.7692dda2.css",
+    "src": "src/entry-client.css"
+  },
+  "src/routes/index.css": {
+    "file": "assets/index.34b589db.css",
+    "src": "src/routes/index.css"
+  }
+}
